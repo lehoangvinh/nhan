@@ -6,7 +6,7 @@ export default function Home() {
     "https://scontent.fdad3-5.fna.fbcdn.net/v/t39.30808-6/354053256_1000218054685298_2097928690010881311_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=7tzMqS1AI8UAX9jhLpu&_nc_ht=scontent.fdad3-5.fna&oh=00_AfBIMPZMDBlpKuR0JTHxERHU-cGyqV3t81Ink-RGHpU4uQ&oe=64EBD6A4";
   return (
     <>
-      <div className=" h-[950px] w-full flex flex-col justify-center items-center ">
+      <div className=" h-screen w-full flex flex-col justify-center items-center ">
         <Image
           src={url}
           width={100}
